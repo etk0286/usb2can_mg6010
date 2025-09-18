@@ -1,2 +1,2 @@
 # usb2can_mg6010
-123
+github初體驗
