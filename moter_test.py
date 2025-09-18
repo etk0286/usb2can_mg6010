@@ -245,9 +245,10 @@ class MotorControl:
                 print("No valid DATA found")
 
 
-
-
-MotorControl1=MotorControl(serial_device,0x141)
+#0x140+id
+# id=1 motor_id=0x141
+motor_id=0x141
+MotorControl1=MotorControl(serial_device,motor_id)
                   
 
 if __name__ == '__main__':
